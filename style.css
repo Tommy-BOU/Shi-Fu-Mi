@@ -1,0 +1,58 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+button{
+    height :150px ;
+    border: none;
+}
+
+button img{
+    width: 100%;
+    height: 100%;
+}
+
+#choix{
+    width: 500px;
+    margin:  15px 0;
+}
+
+#manche{
+    margin: 15px 0;
+    font-size: 23px;
+}
+
+#score{
+    margin: 15px 0
+}
+
+#arbitre{
+    height: 150px;
+    display:none;
+}
+
+#fini{
+    display:none;
+    margin: 10px 0;
+}
+
